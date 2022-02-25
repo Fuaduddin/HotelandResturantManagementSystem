@@ -1,0 +1,433 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+
+/*multiple selector*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Body Section*/
+body {
+  background-color: white;
+  line-height: 1;
+  padding-top: 50px;
+}
+
+/*========================================================
+          Top Section - Navigation
+========================================================*/
+nav {
+  background: #352d2f;
+  font-family: 'Titillium Web', sans-serif;
+  position: fixed;
+  top: 0;
+  min-height: 50px;
+  width: 100%;
+  z-index: 2;
+}
+.logo {
+  background: #f63c3c;
+  color: white;
+  margin-left: 10%;
+  padding: 9px 10px 10px;
+  text-align: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation {
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+}
+
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+li.active a {
+  border-bottom: 3px solid white;
+}
+
+.navigation a:hover{
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
+/*========================================================
+               Header Section
+========================================================*/
+header {
+  background: #352d2f;
+  font-family: 'Teko', sans-serif;
+  min-height: 50px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  font-size: 80px;
+  padding: 15% 0 5%;
+  width: 60%;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header button {
+  background: transparent;
+  color: white
+  border: 1px solid white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+header button span, button i {
+  color: white;
+}
+
+/*========================================================
+               Projects Section
+========================================================*/
+.room {
+  padding: 3% 0;
+  background: #fafafa;
+}
+
+.room div {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.room h3 {
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  padding: 0.6em 0;
+    color: black;
+}
+.room ul {
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  padding: 0.6em 0;
+    color: black;
+}
+.room li {
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  
+    color: black;
+}
+
+.room p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  
+}
+
+.room a {
+  
+ color:black;
+  padding: 0;
+  margin: 0;
+}
+/*========================================================
+               Spaces Section
+========================================================*/
+#projects {
+  font-family: 'Teko', sans-serif;
+  height: 600px;
+}
+.spaces {
+  background: #f63c3c;
+  color: white;
+  width: 50%;
+  height: 550px;
+  float: left;
+}
+
+.spaces div {
+  font-size: 14px;
+  margin: 50% 10% 3%;
+}
+
+.spaces .title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 10%;
+}
+
+.model {
+  background-color: #352d2f;
+  color: white;
+  width: 50%;
+  height: 275px;
+  float: right;
+}
+
+.curiosity {
+  background: #30282a;
+  color: white;
+  width: 50%;
+  height: 275px;
+  float: right;
+}
+
+.model div, .curiosity div {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 20% 10% 0;
+}
+
+.spaces p, .model p, .curiosity p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 10%;
+  width: 45%;
+}
+
+.more {
+  text-align: center;
+  background: #30282a;
+  /*control behavior of floating elements*/
+  clear: both;
+  padding: 10px 0;
+}
+
+.more a {
+  border-bottom: 3px solid white;
+  padding: 5px;
+  font-size: 14px;
+
+}
+
+/*========================================================
+               About Section
+========================================================*/
+#about {
+  background-color: #fafafa;
+  font-family: 'Teko', sans-serif;
+  padding: 3% 0;
+}
+
+#about div {
+  width: 35%;
+  display: inline-block;
+  margin-left: 10%;
+
+}
+
+#about div i {
+  color: #f63c3c;
+}
+
+#about h3 {
+  padding: 0.6em 0;
+}
+
+#about p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+/*========================================================
+               Connect Section
+========================================================*/
+.connect {
+  padding: 3% 0;
+  background: #fafafa;
+}
+
+.connect div {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.connect h4 {
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  padding: 0.6em 0;
+}
+
+.connect p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  margin: 0 0 1%;
+}
+
+.social-media a {
+  background: #30282a;
+  text-align: center;
+  padding: 40px 74px;
+}
+
+.social-media a:nth-child(n+2) {
+  margin-left: 2%;
+}
+
+.social-media h5 {
+  padding: 0.6em 0;
+}
+
+/*========================================================
+               Contact Section
+========================================================*/
+.contact{
+  padding: 3% 0;
+  background: #fafafa;
+}
+
+.contact div {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact h3 {
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  padding: 0.6em 0;
+    color: black;
+}
+.contact ul {
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  padding: 0.6em 0;
+    color: black;
+}
+.contact li {
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  
+    color: black;
+}
+
+.contact p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  
+}
+
+.contact a {
+  
+ color:black;
+  padding: 0;
+  margin: 0;
+}
+
+/*========================================================
+               Footer Section
+========================================================*/
+footer {
+  font-family: 'Teko', sans-serif;
+  margin: 0 auto;
+  padding: 0 0 3%;
+  width: 100%;
+    background: black;
+}
+
+footer h2 {
+  padding: 0.6em 0;
+  font-size: 16px;
+    color: white;
+    
+}
+     footer p {
+  padding: 0.6em 0;
+  font-size: 16px;
+    color: white;
+    
+}
+         footer span {
+  padding: 0.6em 0;
+  font-size: 16px;
+    color: white;
+    
+}
+
+footer ul {
+  font-size: 12px;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+footer div hr {
+  border-top: 6px solid white;
+}
+
+
+footer a {
+  color:white;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  list-style: none;
+  padding: 1% 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+    min-height: 50px;
+  width: 100%;
+    
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.column {
+  float: left;
+  padding: 0 10px;
+  min-height: 30px;
+  width: 20%;
+ margin-right: 10%;
+    margin-left: 20%;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
